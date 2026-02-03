@@ -79,3 +79,8 @@ footer p {
   font-size: 0.9rem;
   color: #bbb;
 }
+
+#certifications .card-img-top {
+  cursor: default;
+  pointer-events: none;
+}
