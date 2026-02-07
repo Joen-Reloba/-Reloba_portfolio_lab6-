@@ -220,18 +220,25 @@
         <div class="row justify-content-center">
           <div class="col-md-6">
             <form>
-              <input type="text" class="form-control mb-3" placeholder="Name" />
               <input
+                id="clientName"
+                type="text"
+                class="form-control mb-3"
+                placeholder="Name"
+              />
+              <input
+                id="clientEmail"
                 type="email"
                 class="form-control mb-3"
                 placeholder="Email"
               />
               <textarea
+                id="clientMessage"
                 class="form-control mb-3"
                 rows="4"
                 placeholder="Message"
               ></textarea>
-              <button class="btn btn-primary w-100">Send</button>
+              <button id="sendBtn" class="btn btn-primary w-100">Send</button>
             </form>
           </div>
         </div>
@@ -256,5 +263,7 @@
         <p class="mb-0">© 2026 Joen Reloba | All Rights Reserved</p>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
